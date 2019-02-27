@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='v8unpack source to destination directory. Destination defaults to source_unpacked')
+parser = argparse.ArgumentParser(description='v8unpack source to destination directory. Destination defaults to source.unpacked')
 
 parser.add_argument('-src', required= True, metavar= 'SOURCE', help='source directory')
 parser.add_argument('-dst', metavar= 'DESTINATION', help='destination directory')
